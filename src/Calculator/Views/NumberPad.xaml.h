@@ -31,6 +31,7 @@ namespace CalculatorApp
         }
 
     private:
+        void SetTheButton(int target, int Loc);
         void OnCurrentRadixTypePropertyChanged(CalculatorApp::Common::NumberBase oldValue, CalculatorApp::Common::NumberBase newValue);
 
 
